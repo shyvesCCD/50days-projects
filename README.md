@@ -6,5 +6,5 @@
 
 **Binary Website to convert Binary to Decimal, second projet**
 
-- Projeto criado para converter binario em decimal.
+- Projeto criado para converter binário em decimal.
 - https://binary-converter.vercel.app/
