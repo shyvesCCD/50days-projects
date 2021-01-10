@@ -11,8 +11,3 @@ function showPomodoro() {
     document.getElementById("clock").innerHTML = min + " : " + sec;
   } while (min != 0);
 }
-
-// function showResult2(valor) {
-//   const resultado = document.querySelector("#resultado");
-//   resultado.innerHTML = valor;
-// }
