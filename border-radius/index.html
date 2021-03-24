@@ -9,16 +9,18 @@
   </head>
   <body>
     <header>
-      <h1>border-radius previewer</h1>
+      <h1>Border-Radius previewer</h1>
       <p>by shyvesCCD</p>
     </header>
     <main>
-      <div class="container">
-        <h2 id="block"></h2>
-      </div>
       <div class="container-input">
-        <input type="text" id="myBorder" />
-        <button onclick="myFunction()">test!</button>
+        <div id="bloco"></div>
+        <input
+          type="text"
+          id="myBorder"
+          placeholder="Set the radius in pixels"
+        />
+        <button onclick="showInputResult()">Test the Border-Radius</button>
       </div>
     </main>
 
@@ -29,4 +31,6 @@
       /></a>
     </footer>
   </body>
+
+  <script src="./script.js"></script>
 </html>
